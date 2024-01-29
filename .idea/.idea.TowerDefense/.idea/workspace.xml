@@ -1,21 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c321ff1-b000-4c8f-82f9-fbfd406dd4d6" name="Default Changelist" comment="" />
+    <list default="true" id="8c321ff1-b000-4c8f-82f9-fbfd406dd4d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Enemies/TestEnemy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Enemies/TestEnemy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Path/PathNodes/TrailPathNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Path/PathNodes/TrailPathNode.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefense/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefense/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefense/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefense/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefense/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Path/PathNodes/TowerPathNode.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/PathData/PathData.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/PathData/PathNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/PathNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Ememies/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Enemies/EnemyPathData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Path/IRelocatable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Path/PathNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Path/Core/IRelocatable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Path/PathNodes/TrailPathNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Path/PathNodes/TowerNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Enemies/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Path/Core/Relocatable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Path/Core/PathNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Path/PathNodes/TowerPathNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Enemies/TestEnemy.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="2adPGkx7s2NDCn0gSz4TlrbZHek" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,12 +109,49 @@
       <updated>1704645392001</updated>
       <workItem from="1704645413880" duration="1088000" />
       <workItem from="1704732229892" duration="670000" />
+      <workItem from="1704896986354" duration="3185000" />
+      <workItem from="1704982324520" duration="7168000" />
+      <workItem from="1705140652154" duration="3201000" />
+      <workItem from="1705155150842" duration="11897000" />
+      <workItem from="1705246213973" duration="4744000" />
+      <workItem from="1705850208415" duration="5686000" />
+      <workItem from="1706455091117" duration="5732000" />
     </task>
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1705143805609">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1705143805609" />
   </component>
 </project>

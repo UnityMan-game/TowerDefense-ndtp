@@ -9,16 +9,29 @@
       <e p="Assets" t="Include">
         <e p="Project" t="Include">
           <e p="Art" t="Include">
-            <e p="Materials" t="Include">
-              <e p="CartoonMaterial" t="Include" />
-            </e>
+            <e p="Materials" t="Include" />
             <e p="Models" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="CartoonShader" t="Include" />
+            </e>
+            <e p="Texstures" t="Include" />
           </e>
           <e p="Scenes" t="Include" />
           <e p="Scripts" t="Include">
-            <e p="PathData" t="Include">
-              <e p="PathData.cs" t="Include" />
-              <e p="PathNode.cs" t="Include" />
+            <e p="Enemies" t="Include">
+              <e p="Enemy.cs" t="Include" />
+              <e p="Sceleton.cs" t="Include" />
+              <e p="TestEnemy.cs" t="Include" />
+            </e>
+            <e p="Path" t="Include">
+              <e p="Core" t="Include">
+                <e p="PathNode.cs" t="Include" />
+                <e p="Relocatable.cs" t="Include" />
+              </e>
+              <e p="PathNodes" t="Include">
+                <e p="TowerPathNode.cs" t="Include" />
+                <e p="TrailPathNode.cs" t="Include" />
+              </e>
             </e>
           </e>
           <e p="Settings" t="Include">
