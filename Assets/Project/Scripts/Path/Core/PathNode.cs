@@ -12,7 +12,7 @@ namespace Path.Core
 
         public PathNode[] next;
         
-        protected abstract float size { get; }
+        protected abstract float _size { get; }
 
         public void AddRelocatable(Relocatable relocatable)
         {
@@ -24,23 +24,31 @@ namespace Path.Core
                 return;
             }
             _relocatables.Insert(0,relocatable);
-            Debug.Log(_relocatables.Count);
+        }
+
+        public void RemoveRelocatable(Relocatable relocatable)
+        {
+            if(!_relocatables.Contains(relocatable)) return;
+            _relocatables.Remove(relocatable);
         }
 
         public void Pass(Relocatable relocatable,float spacing)
         {
-            int indexRelocatable = IndexRelocatable(relocatable);
-            if(indexRelocatable == -2) return;
+            if (!_relocatables.Contains(relocatable)) return;
+            int indexRelocatable = _relocatables.IndexOf(relocatable);
+
+            //eсли враг первый на пути
             if (indexRelocatable == _relocatables.Count - 1)
             {
                 _relocatables[indexRelocatable].pathLevel += spacing;
                 relocatable.Move();
                 MoveRelocatable(relocatable);
-                if (relocatable.pathLevel > size)
+                //если враг дошел до конца
+                if (relocatable.pathLevel > _size)
                 {
                     _relocatables[indexRelocatable].Next().AddRelocatable(relocatable);
                     _relocatables.RemoveAt(indexRelocatable);
-                    if (relocatable.pathLevel > size)
+                    if (relocatable.pathLevel > _size)
                     {
                         _relocatables[indexRelocatable].Next().AddRelocatable(relocatable);
                         _relocatables.RemoveAt(indexRelocatable);
@@ -54,41 +62,24 @@ namespace Path.Core
                 }
                 return;
             }
+            
+            //eсли враг не первый на пути
             if (indexRelocatable < _relocatables.Count - 1)
             {
                 float frontRelocatableDistance =
-                    (_relocatables[indexRelocatable + 1].pathLevel - _relocatables[indexRelocatable + 1].size / 2) -
+                    (_relocatables[indexRelocatable + 1].pathLevel - _relocatables[indexRelocatable + 1].size / 2) - 
                     (relocatable.pathLevel+relocatable.size/ 2);
+                
+                //если враг впереди не препядствует передвижению
                 if (frontRelocatableDistance > spacing)
                 {
                     relocatable.pathLevel += spacing;
                     relocatable.Move();
                     MoveRelocatable(relocatable);
                 }
-                if (relocatable.pathLevel > size)
-                {
-                    _relocatables[indexRelocatable].Next().AddRelocatable(relocatable);
-                    _relocatables.RemoveAt(indexRelocatable);
-                    if (_waitingRelocatables[0])
-                    {
-                        _relocatables.Insert(0,_waitingRelocatables[0]);
-                        _waitingRelocatables.RemoveAt(0);
-                        
-                    }
-                }
             }
         }
 
         protected abstract void MoveRelocatable(Relocatable relocatable);
-
-        private int IndexRelocatable(Relocatable relocatable)
-        {
-            for (int i = 0; i < _relocatables.Count; i++)
-            {
-                if (_relocatables[i] == relocatable) return i;
-            }
-
-            return -2;
-        }
     }
 }

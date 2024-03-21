@@ -7,9 +7,13 @@ namespace Path.Core
         public float pathLevel;
         public float size;
         public PathNode currentPathNode;
-        
+
+        public Relocatable(PathNode startNode)
+        {
+            startNode.AddRelocatable(this);
+        }
         public abstract PathNode Next();
 
-        public abstract void Move();
+        public virtual void Move(){}
     }
 }

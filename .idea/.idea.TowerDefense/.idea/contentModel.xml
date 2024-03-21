@@ -16,12 +16,27 @@
             </e>
             <e p="Texstures" t="Include" />
           </e>
+          <e p="Prefabs" t="Include" />
           <e p="Scenes" t="Include" />
           <e p="Scripts" t="Include">
+            <e p="Demagamle" t="Include">
+              <e p="IDemagable.cs" t="Include" />
+            </e>
             <e p="Enemies" t="Include">
               <e p="Enemy.cs" t="Include" />
               <e p="Sceleton.cs" t="Include" />
               <e p="TestEnemy.cs" t="Include" />
+            </e>
+            <e p="EnemySpawner" t="Include">
+              <e p="EnemyFactorys" t="Include">
+                <e p="EnemyFactory.cs" t="Include" />
+                <e p="IReloctableFectory.cs" t="Include" />
+                <e p="SceletonFactory.cs" t="Include" />
+              </e>
+              <e p="Spawner" t="Include">
+                <e p="EnemySpawner.cs" t="Include" />
+                <e p="EnemyWave.cs" t="Include" />
+              </e>
             </e>
             <e p="Path" t="Include">
               <e p="Core" t="Include">

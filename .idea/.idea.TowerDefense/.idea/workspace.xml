@@ -26,14 +26,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c321ff1-b000-4c8f-82f9-fbfd406dd4d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Enemies/TestEnemy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Enemies/TestEnemy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Path/PathNodes/TrailPathNode.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Path/PathNodes/TrailPathNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Art/Materials/CartoonSceletonMaterial.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Art/Materials/CartoonSceletonMaterial.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Art/Materials/CartoonShieldMaterial.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Art/Materials/CartoonShieldMaterial.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Art/Materials/CartoonSwordMaterial.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Art/Materials/CartoonSwordMaterial.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Art/Shaders/Skeleton_Animated.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Art/Shaders/Skeleton_Animated.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Art/Texstures/Shield.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Art/Texstures/Shield.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Art/Texstures/Skull.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Art/Texstures/Skull.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Art/Texstures/Sword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Art/Texstures/Sword.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Prefabs/Cube (4).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Prefabs/Cube (4).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Demagamle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Demagamle/IDemagable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Demagamle/IDemagable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFactorys.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFactorys/EnemyFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFactorys/EnemyFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFactorys/IReloctableFectory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFactorys/IReloctableFectory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFactorys/SceletonFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFactorys/SceletonFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFactorys/SceletonFectory.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFactorys/SceletonFectory.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/Spawner.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/Spawner/EnemySpawner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/Spawner/EnemySpawner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/Spawner/EnemyWave.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/Spawner/EnemyWave.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefense/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefense/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefense/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefense/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefense/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Enemies/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Enemies/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Enemies/Enemy.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Enemies/Enemy.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Enemies/Sceleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Enemies/Sceleton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Enemies/TestEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Enemies/TestEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Enemies/TestEnemy.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Enemies/TestEnemy.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Path/Core/PathNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Path/Core/PathNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Path/Core/Relocatable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Path/Core/Relocatable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Path/PathNodes/TowerPathNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Path/PathNodes/TowerPathNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Path/PathNodes/TrailPathNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Path/PathNodes/TrailPathNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Path/PathNodes/TrailPathNode.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Path/PathNodes/TrailPathNode.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +86,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Path/PathNodes/TowerPathNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Demagamle/IDemagable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Enemies/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Enemies/Sceleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Path/Core/PathNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Enemies/TestEnemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Path/Core/Relocatable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Path/PathNodes/TrailPathNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFactorys/EnemyFactory.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -60,11 +109,33 @@
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Path/Core/IRelocatable.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Path/PathNodes/TrailPathNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Path/PathNodes/TowerNode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Enemies/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Path/Core/Relocatable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Path/Core/PathNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Path/PathNodes/TowerPathNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/TutorialEnemyFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyWaves.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFectory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/SceletonFectory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFectoty/SceletonFectorys/SceletonFectory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Demagamle/IDemagable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Enemies/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFectory/SceletonFectorys/SceletonTutorialFectory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFectory/Core/EnemyFectory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyWave/EnemyWaves.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyWave/EnemyWave.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Enemies/TestEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFectorys/SceletonFectory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFectorys/EnemyFectory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFectorys/EnemyFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/EnemyWaveEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFactorys/IEnemyFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Path/Core/Relocatable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Enemies/Sceleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFactorys/IReloctableFectory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/Spawner/EnemyWave.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/Spawner/EnemySpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFactorys/EnemyFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/EnemySpawner/EnemyFactorys/SceletonFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Path/Core/PathNode.cs" />
       </list>
     </option>
   </component>
@@ -116,6 +187,32 @@
       <workItem from="1705246213973" duration="4744000" />
       <workItem from="1705850208415" duration="5686000" />
       <workItem from="1706455091117" duration="5732000" />
+      <workItem from="1706965831148" duration="770000" />
+      <workItem from="1707061697980" duration="393000" />
+      <workItem from="1707062130777" duration="1157000" />
+      <workItem from="1707589404429" duration="797000" />
+      <workItem from="1707665294512" duration="5045000" />
+      <workItem from="1707848606781" duration="2728000" />
+      <workItem from="1707907969987" duration="496000" />
+      <workItem from="1707927541174" duration="2473000" />
+      <workItem from="1708018319979" duration="2988000" />
+      <workItem from="1708081810162" duration="783000" />
+      <workItem from="1708253463168" duration="1121000" />
+      <workItem from="1708269926128" duration="994000" />
+      <workItem from="1708357322393" duration="723000" />
+      <workItem from="1708452138367" duration="855000" />
+      <workItem from="1708527636949" duration="2028000" />
+      <workItem from="1708772814003" duration="1016000" />
+      <workItem from="1708846247716" duration="562000" />
+      <workItem from="1708874074209" duration="2121000" />
+      <workItem from="1709662831674" duration="2140000" />
+      <workItem from="1709810649041" duration="1076000" />
+      <workItem from="1709834940105" duration="1304000" />
+      <workItem from="1709973425580" duration="2766000" />
+      <workItem from="1710667861695" duration="2455000" />
+      <workItem from="1710933986373" duration="3511000" />
+      <workItem from="1711034326310" duration="473000" />
+      <workItem from="1711037572981" duration="456000" />
     </task>
     <servers />
   </component>
@@ -149,6 +246,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="93" y="93" width="1350" height="630" key="VCS.FileHistoryDialog" timestamp="1707667141345">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="VCS.FileHistoryDialog/0.0.1536.816@0.0.1536.816" timestamp="1707667141345" />
     <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1705143805609">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

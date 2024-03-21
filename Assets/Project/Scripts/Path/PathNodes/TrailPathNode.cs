@@ -14,7 +14,7 @@ namespace Path.PathNodes
             maxNumberEnemies = m;
         }
 
-        protected override float size { get; } = 2;
+        protected override float _size { get; } = 2;
         protected override void MoveRelocatable(Relocatable relocatable)
         {
             Vector3 startPosition = start.position;

@@ -6,6 +6,11 @@ namespace Enemies
 {
     public class TestEnemy : Enemy
     {
+        public TestEnemy(PathNode startNode) : base(startNode)
+        {
+            
+        }
+        
         [SerializeField] private PathNode start;
 
         [SerializeField] private float speed;
@@ -40,12 +45,6 @@ namespace Enemies
             {
                 currentPathNode.Pass(this,Time.deltaTime * speed);
             }
-            
-        }
-
-        public override void Move()
-        {
-            
         }
     }
 }
